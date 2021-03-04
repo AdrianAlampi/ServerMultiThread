@@ -26,7 +26,7 @@ public class ServerMultiThread {
         try {
             ServerSocket server
                     = new ServerSocket(5500);
-            System.out.println("Server è attivo e in ascolto");
+            System.out.println("Server è attivo ed è in ascolto");
 
             while (true) {
                 Socket client = server.accept();
