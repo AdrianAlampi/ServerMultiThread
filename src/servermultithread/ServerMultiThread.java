@@ -13,10 +13,10 @@ import java.util.logging.Logger;
  * @author alampi.adrian
  */
 public class ServerMultiThread {
-    /* svuiluppare un aplicativo client server, che generi tanti Thread quanti dichiarati dall'utente attraverso un Thread a lui dedicato. 
-       ogni Thread sommerà a una ariabile globale contentuna nel server il proprio valore incrementale assegnatoli dal server, da una a n, dove n è
-       il numeor dei Thread il server killerà ogni processo dopo che avrà subito solo l'operazione quando tutti i processi saranno killati il server 
-       stamperà a consol il risultato.
+    /* sviluppare un applicativo client server, che generi tanti Thread quanti dichiarati dall'utente attraverso un Thread a lui dedicato. 
+       ogni Thread sommerà a una variabile globale contenuta nel server il proprio valore incrementale assegnatogli dal server, da una a n, dove n è
+       il numero dei Thread il server killerà ogni processo dopo che avrà subito solo l'operazione quando tutti i processi saranno killati il server 
+       stamperà a console il risultato.
     */
 
     /**
